@@ -1,0 +1,560 @@
+a {
+    color: #37b;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+label {
+    cursor: pointer !important;
+}
+
+body { font-family: sans-serif; line-height: 1.4; color: #333; }
+
+.side {
+    padding-left: 10px;
+    padding-right: 4px;
+    margin-left: 0;
+    width: 300px;
+}
+.side .spacer {
+    margin: 10px 0 20px;
+}
+
+.side .spacer:first-child {
+    margin-top: 20px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px dotted #ccc;
+    margin: 1em 0;
+}
+
+.pagename, .pagename a {
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-variant: normal !important;
+    letter-spacing: 1px;
+}
+.pagename a:hover,
+.pagename a:focus {
+    text-decoration: none;
+    color: #eef4ff;
+}
+#header { background: #37B; border-bottom: none; }
+#header-bottom-left .tabmenu { margin-left: 5px; }
+#header-img { margin: 30px 0 -2px 15px; }
+
+#header-bottom-right {
+    background: #fff;
+    padding: 4px 8px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    border-bottom: 0;
+}
+#header-bottom-right .separator {
+    color: #ccc;
+    margin: 0px 1.2ex 0px 1.2ex;
+}
+
+.link {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.content { margin-top: 20px; }
+
+.tabmenu li { margin: 0 1px 0 0; }
+
+.tabmenu li a {
+    background-color: transparent;
+    color: #37b;
+    background: #dfeaf5;
+    padding: 6px 13px 4px;
+    line-height: 20px;
+    cursor: pointer;
+    border: none !important;
+    font-weight: normal;
+}
+.tabmenu li.selected a,
+.tabmenu li a:hover,
+.tabmenu li a:focus {
+    background: #fff;
+    color: #37B;
+    text-decoration: none;
+}
+
+.panestack-title { margin-bottom: 5px; border-color: #ccc; }
+
+.arrow { background-image: url(%%minimal-arrows%%) !important; width: 15px; height: 14px; }
+
+.arrow.up { background-position: 50% -4px; }
+.arrow.up:hover, .arrow.upmod { background-position: 50% -23px; }
+.arrow.upmod:hover { background-position: 50% -41px; }
+
+.arrow.down { background-position: 50% -63px; }
+.arrow.down:hover, .arrow.downmod { background-position: 50% -80px; }
+.arrow.downmod:hover { background-position: 50% -98px; }
+
+.midcol { margin-left: 0; }
+.gadget .midcol { width: 17px; }
+
+.link .score.likes { color: #ff8932; }
+.link .score.dislikes { color: #2178b8; }
+
+.linkinfo {
+    padding: 20px 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: center;
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.linkinfo .date {
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+.linkinfo .date time {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.linkinfo .score { padding: 5px; }
+.linkinfo .upvotes { color: #f17432; }
+.linkinfo .downvotes { color: #2178b8; }
+.linkinfo .shortlink { display: none; }
+
+.users-online::before {
+    background: #2c6;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.sidecontentbox .content {
+    border: none;
+    padding-left: 0;
+    border-top: 1px dotted #ccc;
+}
+
+.flairtoggle,
+.titlebox .tagline {
+    display: none;
+}
+
+.side .usertext {
+    padding-top: 10px;
+}
+
+.side .morelink {
+    border: none;
+    height: auto;
+}
+.side .morelink .nub { display: none; }
+.side .morelink a[href*="http://www.reddit.com/r/minimalism/submit"] {
+    background-color: #37B;
+    background-image: url(%%icon-sprite%%);
+    background-repeat: no-repeat;
+    letter-spacing: 0;
+    display: block;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+    padding: .9em .5em .9em 45px;
+    margin: 0 0 15px;
+    text-align: left;
+    font-size: 0.9em;
+    width: auto;
+    line-height: 1.3;
+}
+.side .morelink a[href*="http://www.reddit.com/r/minimalism/submit"]:hover,
+.side .morelink a[href*="http://www.reddit.com/r/minimalism/submit"]:focus {
+    background-color: #48d;
+    text-decoration: none;
+}
+
+.side .morelink a[href="http://www.reddit.com/r/minimalism/submit"] {
+    background-position: 8px -44px;
+}
+
+.side .morelink a[href="http://www.reddit.com/r/minimalism/submit?selftext=true"] {
+    background-position: 8px -95px;
+    margin-top: -10px;
+}
+
+.side .morelink ~ .spacer {
+    display: none;
+}
+
+.side a[href="http://www.reddit.com/r/minimalism/faq"] {
+    background-color: #37B;
+    background-image: url(%%icon-sprite%%);
+    background-repeat: no-repeat;
+    background-position: 10px 6px;
+    display: block;
+    color: white;
+    padding: .9em .5em .9em 45px;
+    margin: 25px 0 2em;
+    font-size: 1.1em;
+}
+.side a[href="http://www.reddit.com/r/minimalism/faq"]:hover,
+.side a[href="http://www.reddit.com/r/minimalism/faq"]:focus {
+    background-color: #48d;
+    text-decoration: none;
+}
+
+.side .md h2 {
+    margin-top: 1.4em;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+.side .md h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #555;
+    margin: 1.2em 0 .2em;
+}
+.side .md h4 {
+    font-weight: normal;
+    color: #888;
+    margin-bottom: 1em;
+}
+
+.side .md p {
+    margin: .5em 0 2em;
+}
+
+.side .md p:first-of-type a {
+    margin-top: .8em;
+    display: inline-block;
+    width:60px;
+    overflow: hidden;
+    padding-top: 47px;
+    background: url(%%flair-icons%%);
+    text-align: center;
+}
+.side .md p a[href="/r/minimalism/search?q=flair:'%5Blifestyle%5D'&restrict_sr=on&sort=new"] {
+    background-position: -40px -50px;
+}
+.side .md p a[href="/r/minimalism/search?q=flair:'%5Bdesign%5D'&restrict_sr=on&sort=new"] {
+    background-position: -90px -100px;
+}
+.side .md p a[href="/r/minimalism/search?q=flair:'%5Bmusic%5D'&restrict_sr=on&sort=new"] {
+    background-position: -140px -150px;
+}
+.side .md p a[href="/r/minimalism/search?q=flair:'%5Bmeta%5D'&restrict_sr=on&sort=new"] {
+    background-position: 10px 0;
+}
+
+.sidebox.create {
+    display: none;
+}
+
+.rank { display: none; }
+.comment .midcol { width: 20px; }
+.link .usertext .md {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px 15px 5px 10px;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+} 
+
+#sr-header-area { border: none; background: #fff; }
+#sr-header-area .selected a {
+    color: #fff;
+    background-color: #37B;
+    padding: 4px 6px 3px;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+#sr-header-area .selected a:hover, #sr-header-area .selected a:focus { background-color: #48d; }
+#sr-header-area .width-clip { left: 5px; }
+#sr-more-link { color: #fff; background-color: #999; }
+
+.usertext-edit textarea {
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+}
+.usertext-edit textarea:hover,
+.usertext-edit textarea:focus {
+    border-color: #999;
+    outline: none;
+}
+
+.usertext.border .usertext-body { background: #eef3ff; }
+
+.usertext button {
+    background: #37B;
+    border: 0;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+}
+.usertext button.save { }
+.usertext button.save:hover,
+.usertext button.save:focus { background: #48d; }
+
+.usertext button.cancel { background: #555; }
+.usertext button.cancel:hover,
+.usertext button.cancel:focus { background: #666; }
+
+.link.last-clicked {
+    padding: 20px;
+    margin-right: 315px;
+    margin-bottom: 20px;
+    border: 1px dashed #ccc;
+}
+.link .title {
+    line-height: 1.1;
+    margin-bottom: 6px;
+}
+
+.fancy-toggle-button a {
+    text-decoration: none !important;
+
+}
+.fancy-toggle-button .active {
+    border: none;
+    padding: 3px 10px;
+    border-radius: 0;
+}
+.fancy-toggle-button .remove {
+    background: #b44;
+}
+
+#search input[type="text"] {
+    padding: 8px;
+    width: 283px;
+    font-size: 16px;
+    border-color: #ccc;
+    color: #334;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#search input[type="text"]:hover,
+#search input[type="text"]:focus {
+    border-color: #999;
+    outline: none;
+}
+
+#searchexpando {
+    border: none;
+    background: #e7f2fa;
+    margin-top: -3px;
+}
+
+.titlebox h1 {
+    padding-bottom: 3px;
+}
+.titlebox h1 a {
+    color: #555;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: tahoma;
+}
+
+.titlebox .md { padding: 0 0 10px; }
+.titlebox .md h2 { padding-top: 10px; }
+
+.md p, .md h1 { margin: 7px 0; }
+.md p:first-child { margin-top: 3px; }
+
+.comment .child { margin-top: 15px; border-color: #ccc; }
+
+.commentarea .usertext blockquote {
+    color: #777;
+}
+.commentarea .md h2,
+.commentarea .md h3 {
+    margin: 1.2em 0 0.8em;
+}
+.titlebox .bottom { display: none; }
+
+.titlebox hr+h1 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: normal;
+    padding: 10px 10px 5px 0;
+    color: #777;
+}
+
+.thing .title.loggedin { color: #16A; }
+.thing .title.loggedin:hover, .thing .title.loggedin:focus { color: #159; }
+
+.thing .title.loggedin:visited, .thing .title.click, .thing .title:visited,
+.thing .title.loggedin.click, .thing .title.loggedin.click:visited { color: #555; }
+
+.thing .title:visited:hover, .thing .title:visited:focus,
+.thing .title.loggedin.click:hover, .thing .title.loggedin.click:focus { color: #333 !important; }
+
+.thing.stickied a.title {
+    font-weight: normal !important;
+}
+
+.menuarea { border-color: #bbb; }
+
+
+/* --- FLAIR --- */
+
+.flairselectbtn {
+    border: 1px solid #ccc;
+    padding: 0.1em .8em !important;
+}
+.flairselectbtn:hover,
+.flairselectbtn:focus {
+    text-decoration: none !important;
+    border-color: #37b;
+    color: #37b !important;
+}
+
+.link .title {
+    position: relative;
+    overflow: visible;
+}
+
+.linklisting .entry {
+    padding-left: 55px;
+    background: url(%%no-flair%%) no-repeat 5px 0;
+}
+
+.linkflairlabel {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    margin-top: -20px;
+    overflow: hidden;
+    line-height: 100px;
+    padding: 0;
+    border: none;
+    background: #fff url(%%flair-icons%%) no-repeat;
+}
+
+.linkflairlabel[title="[meta]"],
+.linkflairlabel.linkflair-meta {
+    background-position: 0 0;
+}
+.linkflairlabel[title="[lifestyle]"],
+.linkflairlabel.linkflair-lifestyle {
+    background-position: -50px -50px;
+}
+.linkflairlabel[title="[design]"],
+.linkflairlabel.linkflair-design {
+    background-position: -100px -100px;
+}
+.linkflairlabel[title="[music]"],
+.linkflairlabel.linkflair-music {
+    background-position: -150px -150px;
+}
+
+.flairoptionpane {
+    max-height: 300px;
+}
+
+.flairoptionpane .linkflair {
+    position: relative;
+    height: 50px;
+}
+.flairoptionpane .linkflairlabel {
+    top: 50%;
+    left: 5px;
+}
+
+.flairselection .linkflair {
+    height: 50px;
+    position: relative;
+    margin-left: 55px;
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+
+.flairoptionpane .title,
+.flairselector .flairselection,
+.flairselector .customizer,
+.flairselector .status {
+    display: none !important;
+}
+
+.flairselector ul {
+    width: 224px !important;
+    max-width: 224px;
+}
+
+.flairselector.active li {
+    float: left;
+    width: 50px;
+    border: 1px dotted #ccc;
+    padding: 0 !important;
+    margin: 0 0 4px 4px;
+}
+.flairselector.active li:first-child {
+    margin-left: 0;
+}
+.flairselector li:hover {
+    background: #fff;
+    border-color: #888;
+}
+.flairselector li.selected{
+    border: 1px solid #999;
+    box-shadow: 0 1px 2px #ddd;
+}
+
+.flairselector form {
+    border: none;
+}
+
+.flairselector h2 {
+    background: none;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0.3em 0 .5em;
+}
+
+.flairselector button {
+    background-color: #37B;
+    letter-spacing: 0;
+    display: block;
+    color: white;
+    font-weight: normal;
+    padding: .6em 0;
+    margin: .5em 0;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    border: none;
+    line-height: 1.3;
+}
+
+/* -- SUBMIT FORM -- */
+
+#reddit-field {
+    display: none;
+}
+
+
+/* -- WIKI AREA -- */
+
+.wikipage h1 {
+    font-family: Tahoma, Geneva, sans-serif !important;
+    font-size: 2.4em !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+    color: #666 !important;
+}
