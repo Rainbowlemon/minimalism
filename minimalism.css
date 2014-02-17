@@ -74,7 +74,7 @@ hr {
     border-bottom: none; 
 }
 #header-bottom-left .tabmenu { 
-    margin-left: 5px; 
+    margin: 0 0 0 5px;
 }
 #header-img { 
     margin: 30px 0 -7px 13px; 
@@ -101,17 +101,21 @@ hr {
 }
 
 .tabmenu li { 
-    margin: 0 1px 0 0; 
+    margin: 0 1px 0 0;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
 }
 
 .tabmenu li a {
     background-color: #256DB6;
     color: #fff;
-    padding: 8px 8px 5px;
-    line-height: 24px;
+    padding: 0 1em;
+    line-height: 2.4;
     cursor: pointer;
     border: none !important;
     font-weight: normal;
+    display: inline-block;
 }
 .tabmenu li a:hover,
 .tabmenu li a:focus {
@@ -161,9 +165,35 @@ hr {
 .link .score.dislikes { color: #2178b8; }
 
 .expando-button {
-    display: none;
+    background: #eee!important;
+    color: #999!important;
+    text-align: center;
+    height: 24px;
+    width: 24px;
+    margin-right: 0.8em;
+    margin-top: 0.4em;
+    cursor: pointer;
 }
-
+.expando-button:hover,
+.expando-button:focus {
+    background: #f4f4f4!important;
+}
+.expando-button:active {
+    background: #ccc !important;
+}
+.expando-button:before {
+    content: 'Aa';
+    font-weight: bold;
+}
+.expando-button:after {
+    content: '+';
+    display: block;
+    margin-top: -0.5em;
+    text-indent: 1em;
+}
+.expando-button.expanded:after {
+    content: '-';
+}
 .linkinfo {
     padding: 25px 10px;
     border: 1px solid #ddd;
@@ -231,6 +261,10 @@ hr {
 .sr-bar a {
     color: #fff;
     text-transform: lowercase;
+    padding: 0.3em 0.7em;
+}
+.sr-bar .separator {
+    display: none;
 }
 .sr-list .separator {
     color: #8AAFDD;
