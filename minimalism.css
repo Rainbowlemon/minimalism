@@ -138,6 +138,13 @@ hr {
     margin-bottom: 10px;
     padding-bottom: 15px;
 }
+
+.linklisting .link.stickied {
+    border: 3px double #DDD;
+    border-width: 3px 0;
+    padding-top: 1em;
+    box-shadow: 0 1px 10px #F6F6F6;
+}
 .content { 
     margin: 2.4em 0 0 1.2em;
 }
