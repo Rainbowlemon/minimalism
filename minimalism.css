@@ -134,6 +134,10 @@ hr {
 
 /* --- MAIN CONTENT --- */
 
+.flat-list li a.gold {
+    background-color: #fff;
+}
+
 .link {
     margin-bottom: 10px;
     padding-bottom: 15px;
@@ -342,13 +346,33 @@ hr {
     background: #b44;
 }
 
+/* --- MARGIN FIXES --- */
+
+.content[role=main] {
+    margin-right: 330px;
+}
+.panestack-title,
+.searchpane,
+.menuarea {
+    margin-right: 0;
+}
+
+/* --- SEARCH --- */
+
+.searchpane {
+    border: none;
+    background: #F5F5F5;
+    padding: 1.5em 2em 2em;
+    margin-bottom: 2em;
+}
+.searchpane input[type=text] {
+    width: 95%;
+}
 
 /* --- SIDE AREA --- */
 
 .side {
-    padding-left: 3em;
     margin-left: 0;
-    width: 285px;
 }
 .side .spacer {
     margin: 10px 0 20px;
@@ -358,7 +382,7 @@ hr {
     margin-top: 20px;
 }
 
-#search input[type="text"] {
+.side #search input[type="text"] {
     width: 96%;
     font-size: 16px;
     border-color: #ddd;
@@ -366,8 +390,8 @@ hr {
     padding: 0.4em 0 0.4em 0.5em;
     border-radius: 0 !important;
 }
-#search > input:hover,
-#search > input:focus {
+.side #search > input:hover,
+.side #search > input:focus {
     border-color: #999;
     outline: none;
 }
@@ -438,16 +462,16 @@ hr {
     font-size: 1.2em;
     font-weight: normal;
     color: #555;
-    margin: 1.2em 0 .2em;
+    margin: 2em 0 .2em;
 }
 .side .md h4 {
     font-weight: normal;
     color: #888;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 .side .md p {
-    margin: .5em 0 2em;
+    margin: .5em 0;
 }
 
 .side .md p a {
