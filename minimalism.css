@@ -1,5 +1,10 @@
 /* --- DEFAULT STYLES --- */
 
+/* Stylesheets page */
+.sheets {
+    margin-right: 0;
+}
+
 a {
     color: #256DB6;
 }
@@ -324,7 +329,6 @@ hr {
 
 .link.last-clicked {
     padding: 20px;
-    margin-right: 315px;
     margin-bottom: 20px;
     border: 1px dashed #ddd;
 }
