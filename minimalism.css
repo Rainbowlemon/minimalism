@@ -131,10 +131,24 @@ hr {
 .user {
     color: #fff;
 }
-
 .user .userkarma {
     border-bottom: 1px dotted rgba(255,255,255,0.3);
 }
+
+
+.message-count {
+    color: #1365B8 !important;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin: 0 -10px 0 0;
+    left: -5px;
+    top: -6px;
+    font-size: 9px;
+    padding: 0 5px;
+}
+
 .pref-lang {
     font-weight: normal;
 }
