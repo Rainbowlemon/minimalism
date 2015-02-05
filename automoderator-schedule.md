@@ -13,15 +13,6 @@ text: |
     
 ---
 
-first: "November 4, 2014 8:00 AM"
-repeat: 1 week
-sticky: true
-title: "Weekly Thread: Tidy Tuesday ({{date %b %d, %Y}})"
-text: |
-    Recently got rid of a bunch of unwanted clutter? Maybe you need a kick in the butt to throw out that owl figurine that grandma gave you when you were five? Perhaps you already got rid of everything and live in a tent outside Walmart? Whatever the case, share your tales and aspirations of merciless possession-culling here!
-    
----
-
 first: "November 7, 2014 9:00 AM"
 repeat: 1 week
 sticky: true
