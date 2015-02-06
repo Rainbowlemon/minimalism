@@ -4,7 +4,7 @@
 
 ---
 
-first: "November 10, 2014 8:00 AM"
+first: "February 9, 2015 8:00 AM"
 repeat: 1 week
 sticky: true
 title: "Weekly Thread: 'My Room' Monday ({{date %b %d, %Y}})"
@@ -13,7 +13,7 @@ text: |
     
 ---
 
-first: "November 7, 2014 9:00 AM"
+first: "February 13, 2015 9:00 AM"
 repeat: 1 week
 sticky: true
 title: "Weekly Thread: Photo Friday ({{date %b %d, %Y}})"
@@ -22,7 +22,7 @@ text: |
 
 ---
 
-first: "November 8, 2014 9:00 AM"
+first: "February 7, 2015 9:00 AM"
 repeat: 1 week
 sticky: true
 title: "Weekly Thread: Screenshot Saturday ({{date %b %d, %Y}})"
@@ -31,7 +31,7 @@ text: |
     
 ---
 
-first: "November 9, 2014 9:00 AM"
+first: "February 8, 2015 9:00 AM"
 repeat: 1 week
 sticky: true
 title: "Weekly Thread: General Discussion ({{date %b %d, %Y}})"
