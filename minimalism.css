@@ -67,7 +67,7 @@ hr {
     font-size: 1em;
 }
 
-.dropdown.srdrop {
+.dropdown.srdrop .selected {
     color: #fff;
     line-height: 2.4;
     padding-left: 1em !important;
@@ -75,7 +75,7 @@ hr {
     background: none;
 }
 
-.dropdown.srdrop:after {
+.dropdown.srdrop .selected:after {
     content: '';
     width: 0;
     height: 0;
