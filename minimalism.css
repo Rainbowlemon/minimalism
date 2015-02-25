@@ -67,6 +67,26 @@ hr {
     font-size: 1em;
 }
 
+.dropdown.srdrop {
+    color: #fff;
+    line-height: 2.4;
+    padding-left: 1em !important;
+    padding-right: 0;
+    background: none;
+}
+
+.dropdown.srdrop:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white transparent transparent;
+    margin-left: 5px;
+    position: relative;
+    top: 8px;
+}
+
 .sr-bar a {
     color: #C2D7FF;
     text-transform: lowercase;
@@ -83,6 +103,13 @@ hr {
 }
 .sr-list .separator {
     color: #8AAFDD;
+}
+#sr-header-area .sr-list {
+    opacity: 0.65;
+    transition: opacity 0.25s linear;
+}
+#sr-header-area .sr-list:hover {
+    opacity: 1;
 }
 #sr-header-area .selected a {
     color: #fff;
