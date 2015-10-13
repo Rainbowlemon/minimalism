@@ -38,10 +38,10 @@ label {
     cursor: pointer !important;
 }
 
-body { 
-    font-family: sans-serif; 
-    line-height: 1.4; 
-    color: #333; 
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: #333;
 }
 
 hr {
@@ -61,8 +61,8 @@ hr {
 
 /* Top bar */
 
-#sr-header-area { 
-    border: none; 
+#sr-header-area {
+    border: none;
     background: none;
     font-size: 1em;
 }
@@ -117,14 +117,14 @@ hr {
     line-height: 1.8;
     display: inline-block;
 }
-#sr-header-area .selected a:hover, 
-#sr-header-area .selected a:focus { 
-    text-decoration: underline; 
+#sr-header-area .selected a:hover,
+#sr-header-area .selected a:focus {
+    text-decoration: underline;
 }
-#sr-header-area .width-clip { 
-    left: 5px; 
+#sr-header-area .width-clip {
+    left: 5px;
 }
-#sr-more-link { 
+#sr-more-link {
     color: #fff;
     background-color: #387DD5;
     padding: 0 1em;
@@ -154,6 +154,7 @@ hr {
 #header-bottom-right .separator {
     color: rgba(255,255,255,0.3);
     margin: 0px 1.5ex 0px 1.2ex;
+    border-color: #1365b8 !important;
 }
 .user {
     color: #fff;
@@ -182,15 +183,15 @@ hr {
 
 /* Main area and links */
 
-#header { 
-    background: #1365B8; 
-    border-bottom: none; 
+#header {
+    background: #1365B8;
+    border-bottom: none;
 }
-#header-bottom-left .tabmenu { 
+#header-bottom-left .tabmenu {
     margin: 0 0 0 5px;
 }
-#header-img { 
-    margin: 30px 0 -7px 13px; 
+#header-img {
+    margin: 30px 0 -7px 13px;
 }
 
 .pagename {
@@ -198,7 +199,7 @@ hr {
     padding-bottom: 0.55em;
     display: inline-block;
 }
-.pagename, 
+.pagename,
 .pagename a {
     color: #C2D7FF;
     font-family: Tahoma, Geneva, sans-serif;
@@ -214,7 +215,7 @@ hr {
     color: #fff;
 }
 
-.tabmenu li { 
+.tabmenu li {
     margin: 0 1px 0 0;
     display: inline-block;
     overflow: hidden;
@@ -305,14 +306,14 @@ hr {
     box-shadow: 0 0 4px #aaa;
 }
 
-.content { 
+.content {
     margin: 2.4em 0 0 1.2em;
 }
 
 
-.panestack-title { 
-    margin-bottom: 5px; 
-    border-color: #ccc; 
+.panestack-title {
+    margin-bottom: 5px;
+    border-color: #ccc;
 }
 
 .arrow { background-image: url(%%minimal-arrows%%) !important; width: 15px; height: 14px; }
@@ -385,7 +386,7 @@ hr {
     display: none;
 }
 
-.linkinfo .score { 
+.linkinfo .score {
     color: #777;
 }
 .linkinfo .score .number {
@@ -413,11 +414,11 @@ hr {
     margin-top: 4px;
 }
 
-.rank { 
-    display: none; 
+.rank {
+    display: none;
 }
-.comment .midcol { 
-    width: 20px; 
+.comment .midcol {
+    width: 20px;
 }
 .link .usertext .md {
     border: none;
@@ -439,16 +440,16 @@ hr {
     outline: none;
 }
 
-.usertext.border .usertext-body { 
-    background: #eef3ff; 
+.usertext.border .usertext-body {
+    background: #eef3ff;
 }
 
-.usertext button.cancel { 
-    background: #555; 
+.usertext button.cancel {
+    background: #555;
 }
 .usertext button.cancel:hover,
-.usertext button.cancel:focus { 
-    background: #666; 
+.usertext button.cancel:focus {
+    background: #666;
 }
 
 .link.last-clicked {
@@ -551,8 +552,8 @@ hr {
     border: none;
     height: auto;
 }
-.side .morelink .nub { 
-    display: none; 
+.side .morelink .nub {
+    display: none;
 }
 .side .morelink a {
     background-color: #1365B8;
@@ -660,9 +661,9 @@ hr {
 .md ul,
 .md ol { padding-left: 1.4em; }
 
-.comment .child { 
-   margin-top: 15px; 
-   border-color: #ddd; 
+.comment .child {
+   margin-top: 15px;
+   border-color: #ddd;
 }
 
 .commentarea .usertext blockquote {
@@ -685,27 +686,27 @@ hr {
     margin: -0.5em 0 1em;
 }
 
-.thing .title.loggedin { 
-    color: #16A; 
+.thing .title.loggedin {
+    color: #16A;
 }
-.thing .title.loggedin:hover, 
-.thing .title.loggedin:focus { 
-    color: #159; 
+.thing .title.loggedin:hover,
+.thing .title.loggedin:focus {
+    color: #159;
 }
 
-.thing .title.loggedin:visited, 
-.thing .title.click, 
+.thing .title.loggedin:visited,
+.thing .title.click,
 .thing .title:visited,
-.thing .title.loggedin.click, 
-.thing .title.loggedin.click:visited { 
-    color: #777; 
+.thing .title.loggedin.click,
+.thing .title.loggedin.click:visited {
+    color: #777;
 }
 
-.thing .title:visited:hover, 
+.thing .title:visited:hover,
 .thing .title:visited:focus,
-.thing .title.loggedin.click:hover, 
-.thing .title.loggedin.click:focus { 
-    color: #444 !important; 
+.thing .title.loggedin.click:hover,
+.thing .title.loggedin.click:focus {
+    color: #444 !important;
 }
 
 .thing.stickied a.title {
@@ -830,10 +831,10 @@ hr {
 .roundfield {
     background: #f5f5f5;
 }
-.roundfield textarea, 
-.roundfield input[type=text], 
-.roundfield input[type=url], 
-.roundfield input[type=password], 
+.roundfield textarea,
+.roundfield input[type=text],
+.roundfield input[type=url],
+.roundfield input[type=password],
 .roundfield input[type=number] {
     width: 96%;
 }
@@ -859,4 +860,45 @@ hr {
 }
 
 
-/* -- WIKI AREA -- */
+/* -- RES overrides -- */
+#userbarToggle,
+#ResShortcutsEditContainer,
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    background-color: #1365B8 !important;
+}
+
+.RESDashboardToggle, .RESshortcutside {
+    border: 1px solid #fff !important;
+}
+
+div#RESShortcutsViewport {
+    background-color: #1365B8 !important;
+}
+
+.srSep, div#REShortcutsViewport, #userbarToggle, #RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+    color: #fff !important;
+}
+
+#userbarToggle {
+    border-right: 1px solid #1365B8 !important;
+}
+
+#search>input:hover, .side #search>input:focus, #progressIndicator, .NERPageMarker {
+    border-color: #fff !important;
+}
+
+div#RESShortcutsViewport {
+    color: #fff !important;
+}
+
+#progressIndicator, .NERPageMarker {
+    background-color: #fff !important;
+}
+
+#RESShortcutsEditContainer {
+    background-color: #1365b8 !important;
+}
